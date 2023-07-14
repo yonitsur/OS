@@ -8,3 +8,6 @@ Clients connect to the server and send it a stream of bytes. The server counts h
 many of the bytes are printable and returns that number to the client. The server also maintains
 overall statistics on the number of printable characters it has received from all clients. When the
 server terminates, it prints these statistics to standard output.
+# Message Slot
+Implementing a kernel module that provides a new IPC mechanism,
+called a message slot (a character device file through which processes communicate).
